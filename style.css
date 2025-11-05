@@ -4,23 +4,40 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
+html {
+  scroll-behavior: smooth;
+}
 header {
-  background-color: #4caf50;
+  background-color: #fb923c;
   color: white;
-  padding: 10px 0;
+  padding: 5px 5px;
   text-align: center;
 }
 .product {
   background-color: white;
-  border: 1px solid #ddd;
   border-radius: 5px;
   padding: 15px;
   margin: 15px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-img {
+#logo {
+  max-width: 150px;
+  height: auto;
+}
+.product img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+}
+footer {
+  background-color: #666;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+}
+h1 {
+  margin: 0 0 10px 0;
 }
