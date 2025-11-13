@@ -22,4 +22,15 @@ form.addEventListener("submit", function (e) {
   setTimeout(function () {
     document.getElementById("upload-text").innerText = `Making the sale...`;
   }, 1500);
+
+  setTimeout(function () {
+    document.getElementById(
+      "modal-inner"
+    ).innerHTML = `<h2>Thanks you sucker! </h2>
+    <p>We just sold the rights to your eternal soul.</p>
+    <div class="idiot-gif">
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDRlazJpbHZ4OXAwNHhxM3p2Nm5iZWNrcHBkYzkzaWFoeDA5dmM5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11C5ohOOaxjlcc/giphy.gif">
+    </div>
+    `;
+  }, 3000);
 });
