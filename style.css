@@ -44,6 +44,12 @@ footer {
 h1 {
   margin: 0 0 10px 0;
 }
+
+main {
+  width: 400px;
+  margin: 0 auto;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -127,4 +133,13 @@ input {
   height: 140px;
   line-height: 23px;
   margin-bottom: 0;
+}
+.idiot-gif {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.idiot-gif img {
+  box-shadow: 1px 1px 3px #999;
+  border-radius: 5px;
 }

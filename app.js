@@ -1,6 +1,7 @@
 const modal = document.getElementById("modal");
 const modalCloseBtn = document.getElementById("modal-close-btn");
 const form = document.getElementById("contact-form");
+const modalText = document.getElementById("modal-text");
 
 setTimeout(function () {
   modal.style.display = "inline";
@@ -19,6 +20,7 @@ form.addEventListener("submit", function (e) {
         Uploading your data to the dark web...
     </p>
 </div>`;
+
   setTimeout(function () {
     document.getElementById("upload-text").innerText = `Making the sale...`;
   }, 1500);
