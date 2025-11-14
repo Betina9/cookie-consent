@@ -120,6 +120,10 @@ input {
   border-radius: 3px;
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .loading {
   width: 100%;
   margin-top: 10px;
